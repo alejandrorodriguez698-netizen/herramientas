@@ -1,0 +1,39 @@
+# --- Directorios de Compilación ---
+[Bb]in/
+[Oo]bj/
+
+# --- Paquetes NuGet ---
+*.nupkg
+# Directorio donde se restauran los paquetes (si no se usa la caché global)
+packages/
+# Archivos de caché de paquetes de dotnet
+project.lock.json
+project.fragment.lock.json
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- Visual Studio Code ---
+.vscode/
+# Solo ignorar si no quieres compartir la configuración de depuración
+#!.vscode/settings.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+
+# --- Resultados de Pruebas y Cobertura ---
+TestResults/
+*.sequenced.csv
+*.coverage
+
+# --- Archivos del Sistema y Temporales ---
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+*.tmp
+
+# --- Publicación y Despliegue ---
+publish/
