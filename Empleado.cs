@@ -29,4 +29,20 @@ public class Empleado : Persona
             this.Cargo = cargo;
         }
 
+        public override void MostrarInfo()
+        {
+            base.MostrarInfo(); // ejecuta el MostrarInfo() de Persona
+            Console.WriteLine("Cargo: " + Cargo); // agrega lo propio de Empleado
+            Console.WriteLine("Sueldo: $" + Sueldo.ToString("N0"));
+        }
+
+        public void CalcularSueldo(string tipo)
+    {
+        Console.WriteLine(this.sueldo * 0.1);
+    }
+        public void CalcularSueldo(Double descuento)
+    {
+        Console.WriteLine(this.sueldo * 0.1);
+    }
+
 }
