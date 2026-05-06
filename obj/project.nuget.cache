@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "C6/5Vc8qHCc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\Nueva carpeta\\herramientas\\gymApp.csproj",
+=======
+  "dgSpecHash": "xEjtxn/9Lzc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\herramientas\\gymApp.csproj",
+>>>>>>> fbdd34b412891b522feb5640159a61414760faf9
   "expectedPackageFiles": [],
   "logs": []
 }

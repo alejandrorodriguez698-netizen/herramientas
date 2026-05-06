@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # --- Directorios de Compilación ---
 [Bb]in/
 [Oo]bj/
@@ -12,10 +13,42 @@ project.fragment.lock.json
 
 # --- Visual Studio ---
 .vs/
+=======
+# --- Directorios de compilación y salida ---
+[Bb]in/
+[Ob]j/
+out/
+
+# --- Herramientas de .NET ---
+.dotnet/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# --- Paquetes NuGet ---
+*.nupkg
+# No ignorar la carpeta de paquetes si usas el estilo antiguo de packages.config, 
+# pero para .NET Core/5+ se manejan globalmente.
+**/packages/*
+!**/packages/build/
+
+# --- VS Code ---
+.vscode/
+# Nota: Si quieres compartir la configuración de depuración con tu equipo, 
+# comenta la línea de arriba y usa estas:
+# .vscode/tasks.json
+# .vscode/launch.json
+# .vscode/settings.json
+
+# --- User-specific files ---
+*.rsuser
+*.suo
+>>>>>>> fbdd34b412891b522feb5640159a61414760faf9
 *.user
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # --- Visual Studio Code ---
 .vscode/
 # Solo ignorar si no quieres compartir la configuración de depuración
@@ -37,3 +70,10 @@ Thumbs.db
 
 # --- Publicación y Despliegue ---
 publish/
+=======
+# --- Archivos temporales y de SO ---
+.DS_Store
+Thumbs.db
+log.txt
+*.log
+>>>>>>> fbdd34b412891b522feb5640159a61414760faf9
